@@ -29,7 +29,7 @@ else
 dosbox_LDFLAGS+=--memory-init-file 0
 endif
 if WEBASSEMBLY
-dosbox_LDFLAGS+=-s WASM=1 -s FORCE_FILESYSTEM=1 --shell-file ../shells/legendary_realms.html
+dosbox_LDFLAGS+=-s WASM=1 -s FORCE_FILESYSTEM=1 --shell-file ../shells/uplink.html
 endif
 endif
 
